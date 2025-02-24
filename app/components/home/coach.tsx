@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
+import coachPrecious1 from "~/assets/images/coach_precious.jpg";
+import coachPrecious3 from "~/assets/images/coach_precious_3.jpg";
+import coachPrecious4 from "~/assets/images/coach_precious_4.jpg";
+import coachPrecious5 from "~/assets/images/coach_precious_5.jpg";
 
-const images = [
-  "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a",
-  "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a",
-];
+const images1 = [coachPrecious1, coachPrecious3];
+
+const images2 = [coachPrecious4, coachPrecious5];
 
 export default function CoachSection() {
   return (
@@ -15,13 +18,13 @@ export default function CoachSection() {
             <span className="text-pink-400"> Coach Precious</span>
           </h2>
 
-          {images.map((image, index) => {
+          {images1.map((image, index) => {
             return (
               <motion.img
                 key={index}
                 src={image}
                 alt="Coach Precious"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full rounded-xl shadow-xl md:flex-1"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -65,6 +68,22 @@ export default function CoachSection() {
             enabling them to break free from conventional income limitations and
             chart their own path to prosperity.
           </p>
+
+          <div className="mt-8 grid md:grid-cols-2 gap-4">
+            {images2.map((image, index) => {
+              return (
+                <motion.img
+                  key={index}
+                  src={image}
+                  alt="Coach Precious"
+                  className="w-full rounded-xl shadow-xl"
+                  initial={{ opacity: 0, y: -20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                />
+              );
+            })}
+          </div>
         </motion.div>
       </div>
     </section>
