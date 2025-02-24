@@ -1,0 +1,7 @@
+goto to this site https://tonyanierobi.com/5ways/ 
+
+ and create something like that for Coach Precious using:
+
+- i need a colorful texts, backgrounds, big CTAs, highlight some keywords with bold colors 
+- use vite + react router v7 + tailwind v4 and react icons
+- add simple animations

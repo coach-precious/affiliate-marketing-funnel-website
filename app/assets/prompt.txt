@@ -1,0 +1,113 @@
+
+**HOW YOU CAN GAIN FINANCIAL FREEDOM THROUGH THIS NEW 100% WORKING SYSTEM.**
+
+Affiliate Marketing—or as I like to call it **"Smart Marketing"**—is a great way to gain financial freedom by promoting products or services you believe in and earning commissions based on the results you generate.
+
+Here’s something you should understand: Smart Marketing requires skills, knowledge, and dedication to succeed. That’s why I created this training to teach you step by step.  
+💡 **You don’t need experience—just the willingness to learn!**
+
+🚀 **Click below to join me!**  
+👉 **JOIN THE FREE TRAINING NOW** 👈
+
+---
+
+**📌 What You’ll Learn in This Training:**
+
+- **What is Smart Affiliate Marketing, and how does it work?**
+- **How to start earning even if you have no experience!**
+- **Common mistakes moms make when trying to earn online—and how to avoid them**
+- **How to start getting paid FAST!**
+- **The untapped secret to earn 100-300k weekly**
+- **The Highly Untapped System For Turning Your Current Financial Situation Around For Good**
+
+🚀 This training is completely **FREE**—but slots are limited!  
+👉 **GET YOUR FREE ACCESS NOW** 👈
+
+But hurry up—there is limited space available for this free training course. You don’t want to miss the opportunity to learn from one of the best in the field and set your way to financial freedom through Performance Marketing.  
+Click the **"LEARN MORE"** button to get ACCESS to the training.
+
+**DISCLAIMER:** I want you to understand that this is not for everyone. **IN FACT; the Fewer People I get, the better.**
+
+---
+
+**👨‍🏫 Meet Your Coach – Coach Precious!**
+
+Introducing **Coach Precious** – your dedicated mentor with **5+ years** of hands-on experience in **Smart Marketing**! With a **proven track record** in performance marketing, Coach Precious is committed to **empowering you** to achieve your financial dreams.
+
+- **Expert Guidance:** Learn from a seasoned professional who’s been in the trenches and knows the secrets to success! 🚀
+- **Insider Strategies:** Unlock cutting-edge tactics and proven methods that will accelerate your growth and boost your earnings! 💰
+- **Personal Mentorship:** Enjoy tailored advice and one-on-one support designed to catapult your financial journey!
+
+👉 **JOIN NOW & UNLOCK YOUR FULL POTENTIAL WITH COACH PRECIOUS!**  
+💥 **THIS IS YOUR CHANCE TO TRANSFORM YOUR LIFE – DON’T MISS OUT!** 💥
+
+---
+
+**🌟 Real Success Stories – Transform Your Future Today!**
+
+Step into a community where **dreams become reality** and **success is inevitable**. Hear from individuals who took the leap and achieved extraordinary results:
+
+> “I went from struggling to thriving—this training changed my life!” – **Happy Member** 💸  
+> “Coach Precious’ strategies helped me earn more than I ever imagined!” – **Empowered Entrepreneur** 🔥
+
+Join our **VIP community** and start writing your own success story today.  
+👉 **SECURE YOUR SPOT NOW & BECOME THE NEXT SUCCESS STORY!**
+
+---
+
+**💡 Your Path to Unprecedented Wealth Starts Here!**
+
+Imagine a life where **financial freedom** is not just a dream but your reality. With our **step-by-step training**, you’ll:
+
+- **Master Smart Marketing:** Gain the skills to promote products with passion and precision 🧠
+- **Achieve Exponential Growth:** Implement strategies that can skyrocket your income 📈
+- **Live Life on Your Terms:** Say goodbye to the 9-to-5 grind and hello to freedom and flexibility ⏰
+
+👉 **TAKE THE LEAP & TRANSFORM YOUR LIFE TODAY!**
+
+---
+
+**⏰ Limited Time Offer – Act Fast!**
+
+Opportunities like these are **rare** and **incredibly powerful**. Our **FREE training** is exclusively designed for those ready to **seize success** and **change their destiny**. Every second counts—**your future is waiting!**
+
+👉 **CLAIM YOUR FREE ACCESS NOW & START YOUR JOURNEY TO WEALTH!**  
+💥 **DON'T MISS OUT – THE CLOCK IS TICKING!** ⏳
+
+---
+
+Step into a future where **financial freedom** is not just a dream but a **tangible reality**. With **exclusive insights**, **expert mentorship from Coach Precious**, and a community of **ambitious achievers**, you're only one click away from a **life-changing opportunity**.
+
+👉 **JOIN THE MOVEMENT & UNLEASH YOUR TRUE POTENTIAL!**
+
+
+
+
+
+
+Please generate a fully functional React landing page for my affiliate marketing funnel using the following text content (provided separately). The landing page must meet the following requirements:
+
+Design & Layout:
+Use a dark background for the entire page.
+Incorporate images and simple animations to add visual interest, with a design that is especially appealing to mothers.
+Utilize colorful texts and highlight key phrases with bold, bright colors.
+Feature big CTAs (calls to action) that stand out and encourage user interaction.
+
+Technical Specifications:
+Set up the project using Vite for faster builds and development.
+Implement React Router v7 for routing between components/pages.
+Include React Icons for UI elements where appropriate.
+Add SEO metadata in the head of the document (including title, meta description, and keywords).
+
+Content & Structure:
+Ensure that all content is clearly separated into React components (e.g., Header, Section, Footer, CTAButton, etc.) with appropriate comments for clarity.
+
+Additional Considerations:
+The page should be mobile-responsive and accessible.
+Use modern React coding practices and ensure the code is clean and well-commented.
+The final design should evoke trust and energy, with a layout that is simple yet effective for an affiliate marketing funnel targeted at mothers.
+Please output the complete code (with comments) for this landing page.
+
+- I want a dark background, with images, simple animation and colorful texts appealing to the mothers
+- I need a big CTAs, highlight some keywords with bold colors
+- I need react router v7 + vite + react icons set up with SEO metadata
