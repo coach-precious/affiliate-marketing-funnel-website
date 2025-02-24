@@ -1,19 +1,15 @@
 import { motion } from "framer-motion";
+import img1 from "~/assets/images/testimonials/1711276052650.jpg";
+import img2 from "~/assets/images/testimonials/1711276360476.jpg";
+import img3 from "~/assets/images/testimonials/1719734100198.jpg";
+import img4 from "~/assets/images/testimonials/1722788935899.jpg";
+import img6 from "~/assets/images/testimonials/IMG-20241105-WA0043.jpg";
+import img7 from "~/assets/images/testimonials/IMG-20241105-WA0044.jpg";
+import img8 from "~/assets/images/testimonials/IMG_20241105_232719_691.jpg";
+import img9 from "~/assets/images/testimonials/IMG_20241105_232720_425.jpg";
+import img10 from "~/assets/images/testimonials/IMG_20241105_232720_487.jpg";
 
-const testimonials = [
-  {
-    text: "This program changed my life! Went from $0 to $5k/month while raising my kids",
-    author: "Sarah, Mom of 3",
-  },
-  {
-    text: "Finally found a system that works with my busy mom schedule",
-    author: "Emily, Single Mom",
-  },
-  {
-    text: "Earned $12k in my first month - unbelievable results!",
-    author: "Jessica, Work-at-Home Mom",
-  },
-];
+const testimonials = [img1, img2, img10, img4, img6, img7, img8, img9, img3];
 
 export default function Testimonials() {
   return (
@@ -34,33 +30,20 @@ export default function Testimonials() {
           Results
         </p>
 
-        <div className="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <TestimonialCard key={index} {...testimonial} index={index} />
+        <div className="mt-4 grid md:grid-cols-2 gap-4">
+          {testimonials.map((img, index) => (
+            <motion.img
+              key={index}
+              src={img}
+              alt={"Testimonial " + index + 1}
+              className="w-full rounded-xl shadow-xl"
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+            />
           ))}
         </div>
       </div>
     </section>
   );
 }
-
-const TestimonialCard = ({
-  text,
-  author,
-  index,
-}: {
-  text: string;
-  author: string;
-  index: number;
-}) => (
-  <motion.div
-    initial={{ opacity: 0, y: 20 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, margin: "0px 0px -100px 0px" }}
-    transition={{ delay: index * 0.2 }}
-    className="p-8 bg-gray-900 rounded-xl hover:bg-gray-700 transition-colors duration-300"
-  >
-    <p className="text-gray-300 text-lg mb-4">"{text}"</p>
-    <p className="font-bold text-pink-400">- {author}</p>
-  </motion.div>
-);
