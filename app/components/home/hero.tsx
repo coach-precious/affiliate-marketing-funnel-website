@@ -1,6 +1,7 @@
 // components/HeroSection.jsx
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router";
 
 export default function HeroSection() {
   return (
@@ -32,20 +33,13 @@ export default function HeroSection() {
           viewport={{ once: true }}
           className="inline-block"
         >
-          <button className="cta-button bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold py-5 px-12 rounded-full text-lg md:text-xl hover:scale-105 transition-transform duration-300 shadow-lg">
+          <Link
+            to="/"
+            className="block mt-4 cta-button bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold py-5 px-12 rounded-full text-lg md:text-xl hover:scale-105 transition-transform duration-300 shadow-lg"
+          >
             Reserve A Free Spot! <FiArrowRight className="inline ml-2" />
-          </button>
+          </Link>
         </motion.div>
-
-        {/* <motion.img
-          src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ba"
-          alt="Happy mom working"
-          className="mt-16 rounded-lg shadow-2xl mx-auto w-full max-w-2xl"
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2 }}
-        /> */}
       </div>
     </section>
   );
