@@ -11,7 +11,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="text-5xl md:text-6xl font-bold mb-8 text-white"
+          className="text-3xl md:text-4xl font-bold mb-8 text-white"
         >
           How to Gain <Span>Financial Freedom</Span> in{" "}
           <Span>Less Than 30 Days</Span> Through{" "}
@@ -22,7 +22,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="text-4xl md:text-5xl font-bold mb-8 text-white"
+          className="text-2xl md:text-3xl font-bold mb-8 text-white"
         >
           Without Leaving Your <Span>Home</Span> Or <Span>Current Job</Span>
         </motion.h2>

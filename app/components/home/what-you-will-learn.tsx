@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router";
 
 const contentItems = [
   {
@@ -80,11 +79,11 @@ const ContentCard = ({
       {title}
     </h3>
     <p className="text-gray-300 text-lg">{text}</p>
-    <Link
+    <a
       className={`block mt-6 bg-gradient-to-br ${color} bg-clip-text text-transparent`}
-      to={"/"}
+      href={"/"}
     >
       GET FREE ACCESS TO THE TRAINING
-    </Link>
+    </a>
   </motion.div>
 );

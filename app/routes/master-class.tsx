@@ -5,10 +5,14 @@ import CoachSection from "~/components/home/coach";
 import Testimonials from "~/components/home/testimonials";
 import FinalCTA from "~/components/home/final-cta";
 import Footer from "~/components/home/footer";
+import MasterClassHero from "~/components/master-class/hero";
+import MasterClassStickyHeader from "~/components/master-class/sticky-header";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Gain Financial Freedom Through This New 100% Working System" },
+    {
+      title: "Gain Financial Freedom and Change your Life with Coach Precious",
+    },
     {
       name: "description",
       content:
@@ -25,12 +29,8 @@ export function meta({}: Route.MetaArgs) {
 export default function MasterClass() {
   return (
     <>
-      <HeroSection />
-      <WhatYouWillLearn />
-      <CoachSection />
-      <Testimonials />
-      <FinalCTA />
-      <Footer />
+      <MasterClassStickyHeader />
+      <MasterClassHero />
     </>
   );
 }
