@@ -11,7 +11,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="text-3xl md:text-4xl font-bold mb-8 text-white"
+          className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-white"
         >
           How to Gain <Span>Financial Freedom</Span> in{" "}
           <Span>Less Than 30 Days</Span> Through{" "}

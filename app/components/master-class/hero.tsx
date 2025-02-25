@@ -7,19 +7,19 @@ import bg from "~/assets/images/master-class/dollar.webp";
 const contentItems = [
   {
     color: "from-purple-400 to-blue-400",
-    text: "This online business model completely changed the life of my friends and they were able to win a Car for themselves!",
+    text: "This online business model completely changed the life of my friends and they were able to win a Car for themselves! (evidence below)",
   },
   {
     color: "from-yellow-400 to-orange-400",
-    text: "This same online business completely changed the life of 100+ of my students and they were able to make 200k-250k under 4 weeks.",
+    text: "This same online business completely changed the life of 100+ of my students and they were able to make 200k-250k under 4 weeks.(evidence below)",
   },
   {
     color: "from-green-400 to-teal-400",
-    text: "I've also been able to coach over 1,950+ serious persons on this Online Business, I'd be revealing to you shortly.",
+    text: "I've also been able to coach over 1,950+ serious persons on this Online Business, I'd be revealing to you shortly. (evidence below)",
   },
   {
     color: "from-pink-400 to-red-400",
-    text: "The Highly Untapped System For Turning Your Current Financial Situation Around For Good",
+    text: "The Highly Untapped System For Turning Your Current Financial Situation Around For Good. (evidence below)",
   },
 ];
 export default function MasterClassHero() {
