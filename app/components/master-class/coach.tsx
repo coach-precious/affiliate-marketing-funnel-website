@@ -32,10 +32,11 @@ export default function MasterClassCoach() {
           <p className="text-lg text-gray-300">
             My name is <span className="font-black">Ogunleye Precious</span>
             <span className="text-pink-400">(Coach Precious)</span>, a Top rated
-            Digital Affiliate Marketer that has been able to win car, traveled
-            to different countries on vacation and In just 24 months, she has
-            generated over $36,000 in sales from her digital product business,
-            quickly establishing herself as a respected authority in the field..
+            Digital Affiliate Marketer that has been able to win car, buy land,
+            traveled to different countries on vacation and In just 24 months,
+            she has generated over $36,000 in sales from her digital product
+            business, quickly establishing herself as a respected authority in
+            the field..
           </p>
 
           <p className="text-lg text-gray-300">
