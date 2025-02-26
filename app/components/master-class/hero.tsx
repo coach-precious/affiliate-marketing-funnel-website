@@ -83,7 +83,7 @@ export default function MasterClassHero() {
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">
           Let me shock you...
         </h2>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2">
           {contentItems.map((item, index) => (
             <ContentCard key={index} {...item} index={index} />
           ))}

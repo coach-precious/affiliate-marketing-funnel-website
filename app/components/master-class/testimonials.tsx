@@ -8,13 +8,14 @@ import img7 from "~/assets/images/testimonials/IMG-20241105-WA0044.jpg";
 import img8 from "~/assets/images/testimonials/IMG_20241105_232719_691.jpg";
 import img9 from "~/assets/images/testimonials/IMG_20241105_232720_425.jpg";
 import img10 from "~/assets/images/testimonials/IMG_20241105_232720_487.jpg";
+import MasterClassJoinBtn from "./join-btn";
 
 const testimonials = [img1, img2, img10, img4, img6, img7, img8, img9, img3];
 
 export default function Testimonials() {
   return (
     <section className="py-20 px-4 bg-gray-800">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto flex flex-col gap-8">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -45,6 +46,8 @@ export default function Testimonials() {
             />
           ))}
         </div>
+
+        <MasterClassJoinBtn />
       </div>
     </section>
   );
