@@ -1,14 +1,9 @@
 import type { Route } from "./+types/home";
-import HeroSection from "~/components/home/hero";
-import WhatYouWillLearn from "~/components/home/what-you-will-learn";
-import CoachSection from "~/components/home/coach";
-import Testimonials from "~/components/home/testimonials";
-import FinalCTA from "~/components/home/final-cta";
-import Footer from "~/components/home/footer";
 import MasterClassHero from "~/components/master-class/hero";
 import MasterClassStickyHeader from "~/components/master-class/sticky-header";
 import MasterClassCoach from "~/components/master-class/coach";
 import AffiliateMarketing from "~/components/master-class/affiliate-marketing";
+import Testimonials from "~/components/master-class/testimonials";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -35,6 +30,7 @@ export default function MasterClass() {
       <MasterClassHero />
       <MasterClassCoach />
       <AffiliateMarketing />
+      <Testimonials />
     </>
   );
 }

@@ -36,7 +36,9 @@ export default function Testimonials() {
               key={index}
               src={img}
               alt={"Testimonial " + index + 1}
-              className="w-full rounded-xl shadow-xl"
+              className={`w-full rounded-xl shadow-xl ${
+                index === testimonials.length - 1 ? "md:col-span-2" : ""
+              }`}
               initial={{ opacity: 0, y: -20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}

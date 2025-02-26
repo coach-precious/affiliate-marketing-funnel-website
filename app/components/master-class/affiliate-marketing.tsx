@@ -7,7 +7,7 @@ export default function AffiliateMarketing() {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="flex flex-col gap-8 p-5 max-w-5xl mx-auto text-center"
+      className="flex flex-col gap-8 p-5 max-w-5xl mx-auto text-center pb-10"
     >
       <div className="flex flex-col gap-5">
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300">
