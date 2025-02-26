@@ -80,7 +80,7 @@ export default function MasterClassHero() {
       </section>
 
       <section className="flex flex-col gap-5 w-full px-4 pb-8 md:pb-10 lg:pb-12 md:px-8 lg:max-w-6xl lg:mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
           Let me shock you...
         </h2>
         <div className="grid gap-4 md:grid-cols-2">

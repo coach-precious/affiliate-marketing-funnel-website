@@ -25,7 +25,7 @@ export default function AffiliateMarketing() {
         </p>
       </div>
 
-      <h2 className="text-gray-300 font-black text-3xl md:text-4xl lg:text-5xl">
+      <h2 className="text-gray-300 font-black text-3xl md:text-5xl lg:text-6xl">
         What Is Digital Affiliate Marketing?
       </h2>
 

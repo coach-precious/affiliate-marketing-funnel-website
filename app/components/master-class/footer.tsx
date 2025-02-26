@@ -1,8 +1,8 @@
 export default function MasterClassFooter() {
   return (
     <footer className="p-5 text-white text-center mt-12">
-      <div className="flex items-center flex-col gap-4 w-full max-w-5xl mx-auto">
-        <p className="text-lg">
+      <div className="flex items-center flex-col gap-4 w-full max-w-5xl mx-auto text-xl">
+        <p>
           &copy;Copyright; Ogunleye Precious(Coach Precious){" "}
           {new Date().getFullYear()}.
         </p>
