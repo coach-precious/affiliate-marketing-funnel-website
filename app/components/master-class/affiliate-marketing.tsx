@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import MasterClassJoinBtn from "./join-btn";
 
 export default function AffiliateMarketing() {
   return (
@@ -6,12 +7,12 @@ export default function AffiliateMarketing() {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="flex flex-col gap-8 p-5 max-w-5xl mx-auto"
+      className="flex flex-col gap-8 p-5 max-w-5xl mx-auto text-center"
     >
       <div className="flex flex-col gap-5">
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300">
           This business model has{" "}
-          <span className="font-bold text-pink-400">changed my life</span>{" "}
+          <span className="font-bold text-yellow-400">changed my life</span>{" "}
           completely and i know that it will change yours too.
         </p>
 
@@ -24,11 +25,26 @@ export default function AffiliateMarketing() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-8">
-        <h2 className="font-black text-3xl md:text-4xl lg:text-5xl text-center">
-          What Is Digital Affiliate Marketing?
-        </h2>
-      </div>
+      <h2 className="text-gray-300 font-black text-3xl md:text-4xl lg:text-5xl">
+        What Is Digital Affiliate Marketing?
+      </h2>
+
+      <p className="text-lg md:text-xl lg:text-2xl text-gray-300">
+        I'd be holding a{" "}
+        <span className="font-black text-yellow-400">FREE LIVE TRAINING</span>{" "}
+        where I'd be revealing to you how to start this simple business model
+        with{" "}
+        <span className="font-black text-green-400">JUST YOUR SMARTPHONE</span>{" "}
+        and{" "}
+        <span className="font-black text-purple-400">INTERNET CONNECTION</span>.
+      </p>
+
+      <p className="text-lg md:text-xl lg:text-2xl text-gray-300">
+        click on the button below to have access to the{" "}
+        <span className="font-bold text-green-400">live video training</span>.
+      </p>
+
+      <MasterClassJoinBtn />
     </motion.section>
   );
 }
