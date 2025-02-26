@@ -14,7 +14,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Discover Coach Precious' proven system for mothers to achieve financial freedom through affiliate marketing. Join free training now!",
+        "Discover Coach Precious' proven financial freedom and life changing system through affiliate marketing. Join free training now!",
     },
     {
       name: "keywords",
@@ -26,13 +26,13 @@ export function meta({}: Route.MetaArgs) {
 
 export default function MasterClass() {
   return (
-    <>
+    <main className="text-gray-300">
       <MasterClassStickyHeader />
       <MasterClassHero />
       <MasterClassCoach />
       <AffiliateMarketing />
       <Testimonials />
       <MasterClassFooter />
-    </>
+    </main>
   );
 }
