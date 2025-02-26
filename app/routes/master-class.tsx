@@ -8,6 +8,7 @@ import Footer from "~/components/home/footer";
 import MasterClassHero from "~/components/master-class/hero";
 import MasterClassStickyHeader from "~/components/master-class/sticky-header";
 import MasterClassCoach from "~/components/master-class/coach";
+import AffiliateMarketing from "~/components/master-class/affiliate-marketing";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -33,6 +34,7 @@ export default function MasterClass() {
       <MasterClassStickyHeader />
       <MasterClassHero />
       <MasterClassCoach />
+      <AffiliateMarketing />
     </>
   );
 }
