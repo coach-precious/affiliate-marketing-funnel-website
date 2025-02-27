@@ -1,6 +1,7 @@
 import GeneralFooter from "~/components/general/footer";
 import type { Route } from "../+types/root";
 import { Link, useSearchParams } from "react-router";
+import Step1 from "~/components/yes-or-no/Step1";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -11,12 +12,7 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-const steps = [
-  <h1>STep 1</h1>,
-  <h1>STep 2</h1>,
-  <h1>STep 3</h1>,
-  <h1>STep 4</h1>,
-];
+const steps = [<Step1 />, <h1>STep 2</h1>, <h1>STep 3</h1>, <h1>STep 4</h1>];
 
 export default function YesOrNo() {
   const [searchParams] = useSearchParams();
@@ -48,8 +44,12 @@ export default function YesOrNo() {
             ></span>
           </div>
         </div>
-        <div className="flex items-start gap-8 flex-col pt-10">
+        <div className="flex items-start gap-8 flex-col md:pt-8">
           <div>{steps[stepIndex]}</div>
+
+          <p className="font-black text-yellow-400 text-center w-full">
+            CHOOSE YOUR ANSWER BELOW
+          </p>
           <div className="flex gap-5 items-center w-full justify-center">
             <Link
               to="/master-class?from=yes-or-no"
