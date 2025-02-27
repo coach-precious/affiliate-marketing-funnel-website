@@ -45,7 +45,7 @@ export default function YesOrNo() {
           </div>
         </div>
         <div className="flex items-start gap-8 flex-col md:pt-8">
-          <div>{steps[stepIndex]}</div>
+          <div className="text-center">{steps[stepIndex]}</div>
 
           <p className="font-black text-yellow-400 text-center w-full">
             CHOOSE YOUR ANSWER BELOW

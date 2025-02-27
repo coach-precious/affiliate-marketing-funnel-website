@@ -9,7 +9,7 @@ const Step1 = () => {
         <span className="text-yellow-400 text-3xl">online income</span>{" "}
         <span className="text-green-500 italic">opportunities</span> are{" "}
         <span className="text-red-500 underline">scams</span>,{" "}
-        <span className="text-green-500 underline text-3xl">
+        <span className="text-green-500 underline text-3xl md:text-4xl">
           this changes everything.
         </span>
       </h3>
@@ -19,10 +19,15 @@ const Step1 = () => {
         <span className="text-lg italic text-yellow-300">
           know how you can use your
         </span>{" "}
-        <span className="text-green-500 text-3xl">Smart Phone</span> to{" "}
-        <span className="text-pink-400">make as much as</span>{" "}
-        <span className="text-4xl text-green-500 font-bold">N200k</span> a month
-        - <span className="text-amber-300 text-3xl font-bold">LEGALLY?</span>
+        <span className="text-green-500 text-3xl md:text-4xl font-bold">
+          Smart Phone
+        </span>{" "}
+        to <span className="text-pink-400">make as much as</span>{" "}
+        <span className="text-4xl text-green-500 font-black md:text-5xl">
+          N200k
+        </span>{" "}
+        a month -{" "}
+        <span className="text-amber-300 text-3xl font-bold">LEGALLY?</span>
       </h1>
     </div>
   );
