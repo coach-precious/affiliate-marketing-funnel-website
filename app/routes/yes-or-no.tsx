@@ -3,6 +3,7 @@ import type { Route } from "../+types/root";
 import { Link, useSearchParams } from "react-router";
 import Step1 from "~/components/yes-or-no/Step1";
 import Step2 from "~/components/yes-or-no/step2";
+import Step3 from "~/components/yes-or-no/step3";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -13,7 +14,7 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-const steps = [<Step1 />, <Step2 />];
+const steps = [<Step1 />, <Step2 />, <Step3 />];
 
 export default function YesOrNo() {
   const [searchParams] = useSearchParams();
