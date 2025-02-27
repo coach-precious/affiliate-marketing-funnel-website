@@ -6,6 +6,7 @@ import Step2 from "~/components/yes-or-no/step2";
 import Step3 from "~/components/yes-or-no/step3";
 import Step4 from "~/components/yes-or-no/step4";
 import Step5 from "~/components/yes-or-no/step5";
+import Step6 from "~/components/yes-or-no/step6";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -16,7 +17,14 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-const steps = [<Step1 />, <Step2 />, <Step3 />, <Step4 />, <Step5 />];
+const steps = [
+  <Step1 />,
+  <Step2 />,
+  <Step3 />,
+  <Step4 />,
+  <Step5 />,
+  <Step6 />,
+];
 
 export default function YesOrNo() {
   const [searchParams] = useSearchParams();
