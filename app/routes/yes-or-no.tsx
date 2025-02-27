@@ -1,0 +1,75 @@
+import GeneralFooter from "~/components/general/footer";
+import type { Route } from "../+types/root";
+import { Link, useSearchParams } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    {
+      title:
+        "Are you ready to Gain Financial Freedom and Change your Life with Coach Precious | Yes or No?",
+    },
+  ];
+}
+
+const steps = [
+  <h1>STep 1</h1>,
+  <h1>STep 2</h1>,
+  <h1>STep 3</h1>,
+  <h1>STep 4</h1>,
+];
+
+export default function YesOrNo() {
+  const [searchParams] = useSearchParams();
+  const stepCount = Number(searchParams.get("step")) || 1;
+  const totalSteps = steps.length;
+  const step = stepCount > totalSteps || stepCount < 1 ? 1 : stepCount;
+  const stepIndex = step - 1;
+  const stepPercent = Math.round((step / totalSteps) * 100);
+
+  return (
+    <main className="text-gray-300 bg-slate-950 w-full min-h-screen flex flex-col gap-2">
+      <div className="flex-1 p-5 flex flex-col gap-10 w-full max-w-3xl mx-auto">
+        <div className="pt-10 md:pt-16">
+          <div className="bg-gray-200 h-14 w-full mx-auto rounded-sm flex items-center p-3 relative overflow-hidden">
+            <p
+              className={`relative z-10 font-bold ${
+                stepPercent >= 75
+                  ? "text-green-300"
+                  : stepPercent >= 50
+                  ? "text-yellow-400"
+                  : "text-red-200"
+              }`}
+            >
+              {step} of {totalSteps}
+            </p>
+            <span
+              style={{ width: `${stepPercent}%` }}
+              className="absolute top-0 left-0 bottom-0 bg-gradient-to-r from-green-700 via-green-600 to-green-400 transition-[width] duration-700"
+            ></span>
+          </div>
+        </div>
+        <div className="flex items-start gap-8 flex-col pt-10">
+          <div>{steps[stepIndex]}</div>
+          <div className="flex gap-5 items-center w-full justify-center">
+            <Link
+              to="/master-class?from=yes-or-no"
+              className="flex-1 max-w-2xs bg-red-500 px-5 py-3 md:py-5 hover:opacity-75 rounded-2xl text-white font-bold text-2xl flex items-center justify-center text-center"
+            >
+              No
+            </Link>
+            <Link
+              to={{
+                pathname: "/yes-or-no",
+                search: `?step=${step + 1}`,
+              }}
+              className="flex-1 max-w-2xs bg-green-500 px-5 py-3 md:py-5 hover:opacity-75 rounded-2xl text-white font-bold text-2xl flex items-center justify-center text-center"
+            >
+              Yes
+            </Link>
+          </div>
+        </div>
+      </div>
+      <GeneralFooter />
+    </main>
+  );
+}

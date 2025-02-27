@@ -47,8 +47,8 @@ export default function MasterClassCoach() {
           <p className="text-lg text-gray-300">
             Until I came across this life changing opportunity online, and in a
             few weeks my life totally transformed. I am now a{" "}
-            <span className="text-green-400">proud millionaire</span>
-            who helps other serious minded people change their financial life.
+            <span className="text-green-400">proud millionaire</span> who helps
+            other serious minded people change their financial life.
           </p>
         </div>
 

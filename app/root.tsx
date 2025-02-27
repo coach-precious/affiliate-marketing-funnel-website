@@ -5,6 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useNavigate,
 } from "react-router";
 
 import type { Route } from "./+types/root";
@@ -22,6 +23,24 @@ export const links: Route.LinksFunction = () => [
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
 ];
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    {
+      title: "Gain Financial Freedom and Change your Life with Coach Precious",
+    },
+    {
+      name: "description",
+      content:
+        "Discover Coach Precious' proven system for mothers to achieve financial freedom through affiliate marketing. Join free training now!",
+    },
+    {
+      name: "keywords",
+      content:
+        "affiliate marketing, work from home, mom income, financial freedom, online earnings, Coach Precious",
+    },
+  ];
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -49,6 +68,8 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
   let stack: string | undefined;
+
+  const navigate = useNavigate();
 
   if (isRouteErrorResponse(error)) {
     message = error.status === 404 ? "404" : "Error";
