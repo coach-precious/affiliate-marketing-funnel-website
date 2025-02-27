@@ -31,6 +31,8 @@ const Step6 = () => {
           .
         </li>
       </ol>
+
+      <h1 className="text-yellow-300 font-black text-4xl">Can you do that?</h1>
     </div>
   );
 };
