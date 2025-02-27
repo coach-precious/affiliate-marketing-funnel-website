@@ -2,6 +2,7 @@ import GeneralFooter from "~/components/general/footer";
 import type { Route } from "../+types/root";
 import { Link, useSearchParams } from "react-router";
 import Step1 from "~/components/yes-or-no/Step1";
+import Step2 from "~/components/yes-or-no/step2";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,7 +13,7 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-const steps = [<Step1 />, <h1>STep 2</h1>, <h1>STep 3</h1>, <h1>STep 4</h1>];
+const steps = [<Step1 />, <Step2 />];
 
 export default function YesOrNo() {
   const [searchParams] = useSearchParams();
@@ -25,7 +26,7 @@ export default function YesOrNo() {
   return (
     <main className="text-gray-300 bg-slate-950 w-full min-h-screen flex flex-col gap-2">
       <div className="flex-1 p-5 flex flex-col gap-10 w-full max-w-3xl mx-auto">
-        <div className="pt-10 md:pt-16">
+        <div className="pt-2 md:pt-16">
           <div className="bg-gray-200 h-14 w-full mx-auto rounded-sm flex items-center p-3 relative overflow-hidden">
             <p
               className={`relative z-10 font-bold ${
@@ -47,7 +48,7 @@ export default function YesOrNo() {
         <div className="flex items-start gap-8 flex-col md:pt-8">
           <div className="text-center">{steps[stepIndex]}</div>
 
-          <p className="font-black text-yellow-400 text-center w-full">
+          <p className="font-black text-purple-500 text-center w-full">
             CHOOSE YOUR ANSWER BELOW
           </p>
           <div className="flex gap-5 items-center w-full justify-center">
