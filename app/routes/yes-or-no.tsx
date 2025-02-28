@@ -31,14 +31,14 @@ export default function YesOrNo() {
   const [searchParams] = useSearchParams();
   const stepCount = Number(searchParams.get("step")) || 1;
   const totalSteps = steps.length;
-  const step = stepCount > totalSteps || stepCount < 1 ? 1 : stepCount;
+  const step = stepCount > totalSteps + 1 || stepCount < 1 ? 1 : stepCount;
   const stepIndex = step - 1;
   const stepPercent = Math.round((step / totalSteps) * 100);
 
   return (
     <main className="text-gray-300 bg-slate-950 w-full min-h-screen flex flex-col gap-2">
       <div className="flex-1 p-5 flex flex-col gap-10 w-full max-w-3xl mx-auto">
-        {step === totalSteps ? (
+        {step === totalSteps + 1 ? (
           <Final />
         ) : (
           <>
