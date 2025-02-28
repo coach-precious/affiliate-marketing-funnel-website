@@ -8,7 +8,7 @@ import Step4 from "~/components/yes-or-no/step4";
 import Step5 from "~/components/yes-or-no/step5";
 import Step6 from "~/components/yes-or-no/step6";
 import Final from "~/components/yes-or-no/final";
-import Step1 from "~/components/yes-or-no/step1";
+import Step1 from "~/components/yes-or-no/stepp1";
 
 export function meta({}: Route.MetaArgs) {
   return [
