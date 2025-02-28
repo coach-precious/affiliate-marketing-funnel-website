@@ -1,13 +1,14 @@
 import GeneralFooter from "~/components/general/footer";
 import type { Route } from "../+types/root";
 import { Link, useSearchParams } from "react-router";
-import Step1 from "~/components/yes-or-no/step1";
+
 import Step2 from "~/components/yes-or-no/step2";
 import Step3 from "~/components/yes-or-no/step3";
 import Step4 from "~/components/yes-or-no/step4";
 import Step5 from "~/components/yes-or-no/step5";
 import Step6 from "~/components/yes-or-no/step6";
 import Final from "~/components/yes-or-no/final";
+import Step1 from "~/components/yes-or-no/step1";
 
 export function meta({}: Route.MetaArgs) {
   return [
