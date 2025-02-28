@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
 import { Link } from "react-router";
+import { links } from "~/links";
 
 export default function HeroSection() {
   return (
@@ -33,12 +34,14 @@ export default function HeroSection() {
           viewport={{ once: true }}
           className="inline-block"
         >
-          <Link
-            to="/"
+          <a
+            href={links.main}
+            target="_blank"
+            rel="noopener noreferrer"
             className="block mt-4 cta-button bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold py-5 px-12 rounded-full text-lg md:text-xl hover:scale-105 transition-transform duration-300 shadow-lg"
           >
             Reserve A Free Spot! <FiArrowRight className="inline ml-2" />
-          </Link>
+          </a>
         </motion.div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { FiClock } from "react-icons/fi";
+import { links } from "~/links";
 
 export default function FinalCTA() {
   return (
@@ -12,9 +13,14 @@ export default function FinalCTA() {
           Claim Your <span className="text-yellow-400">Free Access</span> Now!
         </h2>
 
-        <button className="cta-button bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold py-5 px-16 rounded-full text-xl hover:scale-105 transition-transform duration-300 shadow-lg mx-auto">
+        <a
+          href={links.main}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-button bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold py-5 px-16 rounded-full text-xl hover:scale-105 transition-transform duration-300 shadow-lg mx-auto"
+        >
           Start My Free Training
-        </button>
+        </a>
 
         <p className="mt-8 text-gray-200 italic">
           Only 23 spots remaining - Don't miss out!

@@ -3,6 +3,7 @@ import { IoStar, IoStarHalf } from "react-icons/io5";
 import MasterClassJoinBtn from "./join-btn";
 
 import bg from "~/assets/images/master-class/dollar.webp";
+import { links } from "~/links";
 
 const contentItems = [
   {
@@ -131,7 +132,9 @@ const ContentCard = ({
       {text}
     </p>
     <a
-      href=""
+      href={links.masterClass}
+      target="_blank"
+      rel="noopener noreferrer"
       className={`bg-gradient-to-br ${color} p-2 rounded-lg max-w-max`}
     >
       JOIN THE TRAINING

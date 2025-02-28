@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { links } from "~/links";
 
 const contentItems = [
   {
@@ -69,9 +70,9 @@ const ContentCard = ({
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+    viewport={{ once: true }}
     transition={{ delay: index * 0.1 }}
-    className="p-8 bg-gray-900 rounded-xl hover:bg-gray-700 transition-colors duration-300"
+    className="p-8 bg-gray-900 rounded-xl transition-colors duration-300"
   >
     <h3
       className={`text-2xl font-bold mb-4 bg-gradient-to-r ${color} bg-clip-text text-transparent`}
@@ -80,8 +81,10 @@ const ContentCard = ({
     </h3>
     <p className="text-gray-300 text-lg">{text}</p>
     <a
-      className={`block mt-6 bg-gradient-to-br ${color} bg-clip-text text-transparent`}
-      href={"/"}
+      className={`inline-block py-1 px-3 rounded-full mt-6 bg-gradient-to-br ${color} text-white`}
+      href={links.main}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       GET FREE ACCESS TO THE TRAINING
     </a>
