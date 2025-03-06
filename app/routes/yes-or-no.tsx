@@ -16,6 +16,11 @@ export function meta({}: Route.MetaArgs) {
       title:
         "Are you ready to Gain Financial Freedom and Change your Life with Coach Precious | Yes or No?",
     },
+    {
+      name: "description",
+      content:
+        "Discover Coach Precious' proven system for mothers to achieve financial freedom through affiliate marketing. Join free training now!",
+    },
   ];
 }
 
