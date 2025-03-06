@@ -1,5 +1,6 @@
 export const links = {
-  masterClass: "https://wa.link/o6aogw",
-  yesOrNo: "https://wa.link/o6aogw",
-  main: "https://wa.link/o6aogw",
+  masterClass: "https://chat.whatsapp.com/Dss1Qsqj4ia41zVMxjTC8z",
+  yesOrNo: "https://chat.whatsapp.com/Dss1Qsqj4ia41zVMxjTC8z",
+  main: "https://chat.whatsapp.com/Dss1Qsqj4ia41zVMxjTC8z",
 };
+// main: "https://wa.link/o6aogw",
