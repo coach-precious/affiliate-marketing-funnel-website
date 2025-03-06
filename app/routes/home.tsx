@@ -24,13 +24,13 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <>
+    <main className="text-gray-300">
       <HeroSection />
       <WhatYouWillLearn />
       <CoachSection />
       <Testimonials />
       <FinalCTA />
       <Footer />
-    </>
+    </main>
   );
 }
