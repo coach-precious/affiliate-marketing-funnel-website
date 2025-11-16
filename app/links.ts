@@ -1,6 +1,6 @@
 export const links = {
-  masterClass: "https://taplink.cc/coach_preciouss",
-  yesOrNo: "https://taplink.cc/coach_preciouss",
-  main: "https://chat.whatsapp.com/Gy0m399WDWh9qHuz5UF3en?mode=ems_copy_t",
+  masterClass: "https://chat.whatsapp.com/D1xP5jLMwM57BZWE1iNNjQ?mode=wwt",
+  yesOrNo: "https://chat.whatsapp.com/HOOueiCGyzsJuwTRBhsar4?mode=wwt",
+  main: "https://chat.whatsapp.com/BNkDYOYw8vm1bZVcTbvpxW?mode=wwt",
 };
 // main: "https://wa.link/o6aogw",
