@@ -185,6 +185,39 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body>
         {children}
         <ScrollRestoration />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      !function(w,d,t){
+        w.TiktokAnalyticsObject=t;
+        var ttq=w[t]=w[t]||[];
+        ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+        ttq.setAndDefer=function(obj,method){
+          obj[method]=function(){
+            obj.push([method].concat(Array.prototype.slice.call(arguments,0)));
+          }
+        };
+        for(var i=0;i<ttq.methods.length;i++){
+          ttq.setAndDefer(ttq,ttq.methods[i]);
+        }
+
+        // Load TikTok pixel script
+        ttq.load=function(pixelId){
+          var script=d.createElement("script");
+          script.async=true;
+          script.src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid="+pixelId;
+          d.getElementsByTagName("head")[0].appendChild(script);
+        };
+
+        // Initialize your pixel
+        ttq.load("D4F42N3C77UD5T3PSM0G");
+        ttq.page();
+      }(window, document, "ttq");
+    `,
+          }}
+        />
+
         <Scripts />
       </body>
     </html>
