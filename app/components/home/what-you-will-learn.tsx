@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { links } from "~/links";
 
 const contentItems = [
   {
@@ -19,7 +18,7 @@ const contentItems = [
   },
   {
     title: "Secret System",
-    color: "from-pink-400 to-red-400",
+    color: "from-pink-400 to-red-500",
     text: "The Highly Untapped System For Turning Your Current Financial Situation Around For Good",
   },
 ];
@@ -32,9 +31,9 @@ export default function WhatYouWillLearn() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center mb-12 text-white"
+          className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 text-white"
         >
-          What You'll <span className="text-pink-400">Learn</span>
+          What You'll <span className="text-red-400">Learn</span>
         </motion.h2>
 
         <p className="my-4 text-lg text-gray-300">
@@ -80,13 +79,13 @@ const ContentCard = ({
       {title}
     </h3>
     <p className="text-gray-300 text-lg">{text}</p>
-    <a
+    {/* <a
       className={`inline-block py-1 px-3 rounded-full mt-6 bg-gradient-to-br ${color} text-white`}
       href={links.main}
       target="_blank"
       rel="noopener noreferrer"
     >
       GET FREE ACCESS TO THE TRAINING
-    </a>
+    </a> */}
   </motion.div>
 );

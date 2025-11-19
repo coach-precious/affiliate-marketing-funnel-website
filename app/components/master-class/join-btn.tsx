@@ -9,7 +9,7 @@ export default function MasterClassJoinBtn() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: 0.2 }}
-      className="bg-gradient-to-br from-yellow-400 to-orange-500 px-4 py-3 text-xl md:text-2xl lg:text-3xl md:py-4 lg:py-5 rounded-lg flex text-center items-center justify-center gap-2 max-w-max mx-auto  text-white hover:from-orange-800 hover:to-yellow-700 font-bold"
+      className="bg-gradient-to-br from-red-700 to-red-500 px-4 py-3 text-xl md:text-2xl lg:text-3xl md:py-4 lg:py-5 rounded-lg flex text-center items-center justify-center gap-2 max-w-max mx-auto  text-white hover:from-red-800 hover:to-red-700 font-bold"
       href={links.masterClass}
       target="_blank"
       rel="noopener noreferrer"

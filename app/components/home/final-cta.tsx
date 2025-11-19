@@ -3,7 +3,7 @@ import { links } from "~/links";
 
 export default function FinalCTA() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-purple-900 to-pink-900">
+    <section className="py-20 px-4">
       <div className="max-w-4xl mx-auto text-center text-white">
         <div className="flex items-center justify-center gap-4 mb-8">
           <FiClock className="text-5xl text-yellow-400" />
@@ -17,7 +17,7 @@ export default function FinalCTA() {
           href={links.main}
           target="_blank"
           rel="noopener noreferrer"
-          className="cta-button bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold py-5 px-16 rounded-full text-xl hover:scale-105 transition-transform duration-300 shadow-lg mx-auto"
+          className="block mt-4 cta-button bg-gradient-to-r from-red-500 to-red-800 text-white font-bold py-5 px-12 rounded-full text-lg md:text-xl hover:scale-105 transition-transform duration-300 shadow-lg max-w-max mx-auto"
         >
           Start My Free Training
         </a>

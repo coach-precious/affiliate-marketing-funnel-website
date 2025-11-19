@@ -3,7 +3,6 @@ import { IoStar, IoStarHalf } from "react-icons/io5";
 import MasterClassJoinBtn from "./join-btn";
 
 import bg from "~/assets/images/master-class/dollar.webp";
-import { links } from "~/links";
 
 const contentItems = [
   {
@@ -103,7 +102,7 @@ const Span = ({
 }) => {
   return (
     <span
-      className={`font-bold text-lg bg-gradient-to-r from-yellow-300 to-orange-600 bg-clip-text text-transparent ${className}`}
+      className={`font-bold text-lg bg-gradient-to-r from-red-400 to-orange-700 bg-clip-text text-transparent ${className}`}
     >
       {children}
     </span>
@@ -131,13 +130,13 @@ const ContentCard = ({
     >
       {text}
     </p>
-    <a
+    {/* <a
       href={links.masterClass}
       target="_blank"
       rel="noopener noreferrer"
       className={`bg-gradient-to-br ${color} p-2 rounded-lg max-w-max`}
     >
       JOIN THE TRAINING
-    </a>
+    </a> */}
   </motion.div>
 );

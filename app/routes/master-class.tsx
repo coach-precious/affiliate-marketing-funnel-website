@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
 import MasterClassHero from "~/components/master-class/hero";
-import MasterClassStickyHeader from "~/components/master-class/sticky-header";
+// import MasterClassStickyHeader from "~/components/master-class/sticky-header";
 import MasterClassCoach from "~/components/master-class/coach";
 import AffiliateMarketing from "~/components/master-class/affiliate-marketing";
 import Testimonials from "~/components/master-class/testimonials";
@@ -27,7 +27,7 @@ export function meta({}: Route.MetaArgs) {
 export default function MasterClass() {
   return (
     <main className="text-gray-300">
-      <MasterClassStickyHeader />
+      {/* <MasterClassStickyHeader /> */}
       <MasterClassHero />
       <MasterClassCoach />
       <AffiliateMarketing />
