@@ -211,7 +211,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         };
 
         // Initialize your pixel
-        ttq.load("D4F42N3C77UD5T3PSM0G");
+        ttq.load("D4JLM6BC77U10O2JC5F0");
         ttq.page();
       }(window, document, "ttq");
     `,
