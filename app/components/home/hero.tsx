@@ -40,7 +40,6 @@ export default function HeroSection() {
           <a
             href={links.main}
             target="_blank"
-            rel="noopener noreferrer"
             className="block mt-4 cta-button bg-gradient-to-r from-red-500 to-red-800 text-white font-bold py-5 px-12 rounded-full text-lg md:text-xl hover:scale-105 transition-transform duration-300 shadow-lg"
           >
             Reserve A Free Spot! <FiArrowRight className="inline ml-2" />
