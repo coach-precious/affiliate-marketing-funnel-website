@@ -1,7 +1,13 @@
 export const links = {
-  masterClass: "https://chat.whatsapp.com/D1xP5jLMwM57BZWE1iNNjQ?mode=wwt",
+  masterClass: "https://t.me/+oGlmrm2qJ-5kNjZk",
   yesOrNo: "https://chat.whatsapp.com/HOOueiCGyzsJuwTRBhsar4?mode=wwt",
   main: "https://chat.whatsapp.com/JoCyYX5aOETE0GcyGm8gne?mode=wwt",
   tiktok: "https://t.me/+oGlmrm2qJ-5kNjZk",
 };
 // main: "https://wa.link/o6aogw",
+
+//1. save after update
+//2. goto terminal and type:
+//3. git add .
+//4. git commit -m "update"
+//5. git push
