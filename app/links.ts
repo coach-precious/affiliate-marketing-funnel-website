@@ -1,5 +1,5 @@
 export const links = {
-  masterClass: "https://t.me/+GDkeK8UQFZZkOWQ0w",
+  masterClass: "https://t.me/+GDkeK8UQFZZkOWQ0",
   yesOrNo: "https://chat.whatsapp.com/HOOueiCGyzsJuwTRBhsar4?mode=wwt",
   main: "https://chat.whatsapp.com/JoCyYX5aOETE0GcyGm8gne?mode=wwt",
   tiktok: "https://t.me/+oGlmrm2qJ-5kNjZk",
