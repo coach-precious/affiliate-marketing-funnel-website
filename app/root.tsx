@@ -213,7 +213,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         };
 
         // Initialize your pixel
-        ttq.load("D4JLM6BC77U10O2JC5F0");
+        ttq.load("D5SIR0JC77U7EB9GRRTG");
         ttq.page();
       }(window, document, "ttq");
     `,
